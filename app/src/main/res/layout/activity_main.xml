@@ -31,8 +31,16 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/button"
-        android:id="@+id/button"
+        android:text="@string/scan"
+        android:id="@+id/scan_button"
         android:onClick="onClick"/>
+    <TextView
+        android:id="@+id/scan_format"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <TextView
+        android:id="@+id/scan_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 
 </android.support.design.widget.CoordinatorLayout>
